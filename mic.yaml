@@ -1,0 +1,67 @@
+name: testo_mosorio4
+inputs:
+  txtinout:
+    path: data/TxtInOut
+parameters:
+  start_year:
+    default_value: 1993
+  years:
+    default_value: 1
+step: 6
+docker_image: testo_mosorio2
+last_execution_dir: /Users/mosorio/tmp/swat_simulation/executions/06_05_14_52_38/src
+github_repo_url: https://github.com/mosoriob/testo_mosorio2.git
+version: 20.7.1
+mint_component_url: https://raw.githubusercontent.com/mosoriob/testo_mosorio2/master/mint_component.zip
+outputs:
+  txtinoutoutput_rsv:
+    path: TxtInOut/output.rsv
+    description: ''  # insert description left of this comment
+  txtinoutfile_cio_bk:
+    path: TxtInOut/file.cio.bk
+    description: ''  # insert description left of this comment
+  txtinoutoutput_rch:
+    path: TxtInOut/output.rch
+    description: ''  # insert description left of this comment
+  txtinoutoutput_sub:
+    path: TxtInOut/output.sub
+    description: ''  # insert description left of this comment
+  txtinouthyd_out:
+    path: TxtInOut/hyd.out
+    description: ''  # insert description left of this comment
+  txtinoutchan_deg:
+    path: TxtInOut/chan.deg
+    description: ''  # insert description left of this comment
+  txtinoutbmp-sedfil_out:
+    path: TxtInOut/bmp-sedfil.out
+    description: ''  # insert description left of this comment
+  txtinoutseptic_out:
+    path: TxtInOut/septic.out
+    description: ''  # insert description left of this comment
+  txtinoutswat670:
+    path: TxtInOut/swat670
+    description: ''  # insert description left of this comment
+  txtinoutbmp-ri_out:
+    path: TxtInOut/bmp-ri.out
+    description: ''  # insert description left of this comment
+  txtinoutoutput_sed:
+    path: TxtInOut/output.sed
+    description: ''  # insert description left of this comment
+  txtinoutoutput_std:
+    path: TxtInOut/output.std
+    description: ''  # insert description left of this comment
+  txtinoutoutput_hru:
+    path: TxtInOut/output.hru
+    description: ''  # insert description left of this comment
+  txtinoutfile_cio:
+    path: TxtInOut/file.cio
+    description: ''  # insert description left of this comment
+  txtinoutinput_std:
+    path: TxtInOut/input.std
+    description: ''  # insert description left of this comment
+  txtinoutfin_fin:
+    path: TxtInOut/fin.fin
+    description: ''  # insert description left of this comment
+  txtinoutwatout_dat:
+    path: TxtInOut/watout.dat
+    description: ''  # insert description left of this comment
